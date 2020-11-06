@@ -49,6 +49,20 @@ Här kan man också ha en dialog med produktägaren om man har förbättringsfö
 Är det bra förslag kan det läggas till på produkt backlogen och man kan ha med det i någon av de framtida sprintarna. 
 Det är också viktigt med ständigt lärande när man jobbar med SCRUM, därför finns också något som kallas för sprint retrospective där man gemensamt tittar på vad man lärt sig från sprinten som gått och identifierar förbättringsmöjligheter i arbetsättet.
 
+Fördelar med SCRUM:
+1. En fördel med scrum är att man jobbar tillsammans och gemensamt definierar vad som ska ingå i sprint backlogen, hur lång tid man behöver och vem som ska göra vad.
+2. Man får kontinuerlig feedback och stöd tack varje daily scrums. 
+3. En stor fördel är att man kan justera och förändra projektet efter varje sprint om man upptäcker något som kan behöva göras kan man ha en dialog med produktägaren och lägga fram förbättringsförslag, 
+produktägaren får sedan ta ställning till om det ska läggas till i produkt backlogen.
+4. Att man arbetar i flera sprinter gör att det är troligt att man kommer hitta, och kunna korrigera, misstag innan man avslutar/releasar projektet.
+
+Nackdelar med SCRUM:
+1. Det förutsätter att alla i scrum-teamet är bra lagspelare och bra på att samarbeta eftersom man jobbar tätt i team under sprintarna. Tyvärr är verkligheten inte alltid så.
+2. Man är relativt beroende av alla sprintmedlemmar, om någon blir långtidssjukskriven eller slutar under en sprint kan det vara svårt att hinna med hela produkt backlogen i tid.
+Säg att man exempelvis är 5 utvecklare i ett scrumteam, om en lämnar har man på pappret tappat 20% av sin kapacitet (1/5) vilket i vissa projekt kan vara tufft.
+3. Dagliga möten har många fördelar (som jag nämnt ovan), men det är många som tycker att det är onödigt att ha för många möten. 
+4. För vissa kan sprintarna upplevas som stressiga, man har en deadline och man måste hinna klart med sin sprint backlog till och med det datumet (för andra är den tydligheten och deadlinen något positivt).
+
 
 
 Grafisk profil
@@ -61,6 +75,13 @@ För ett antal år sedan gjordes en stor omarbetning av den grafiska profilen oc
 Man använde även vissa specifika former (som fyrkanter) på de planscherna vilket gjorde att många snabbt kunde identifiera att det var information från Stockholms stad när de såg planscherna och kände igen den grafiska profilen.
 Det går givetvis inte över en natt att kunder känner igen en ny grafiskprofil, men med tiden så sätter det sig hos kunderna. Det går väldigt snabbt som kund att identifiera på profilen vilket företag det är som skickar informationen om man sett just den grafiska profilen tidigare.
 Då kan man som kund också snabbt besluta sig för om man vill läsa vidare och ta till sig informationen eller om man tror att det inte är något av intresse.
+
+
+Fördelar med grafisk profil:
+1. Som jag var inne på ovan är en uppenbar fördel med grafika profiler att kunder som känner igen profilen snabbt vet vilket företag det handlar om.
+2. En annan fördel är att det kan vara enklare för t.ex. utvecklare, designers eller andra att skapa något utifrån företagets krav om de har tydliga grafiska profiler med färg/form/typsnitt osv.
+
+Nackdelar/svårigheter med grafisk profil:
 
 
 Tillgänglighet

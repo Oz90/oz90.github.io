@@ -1,0 +1,19 @@
+Inlämningsuppgift godkänt-nivå:
+I ditt repo ska det finnas en rapport.txt 
+(jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) 
+där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår dessa begrepp.
+
+Välgodkänt-nivå:
+Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.
+
+
+SCRUM 
+
+
+
+Grafisk profil
+
+
+
+tillgänglighet
+

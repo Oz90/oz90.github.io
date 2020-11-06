@@ -1,0 +1,254 @@
+$backgroundColor: #52796F;
+$textColor: #CAD2C5;
+$fontFamily: 'Fjalla One';
+$bg-dark: #2F3E46;
+$accent-dark: #354F52;
+$color-main: #52796f;
+$bg-light: #CAD2C5;
+$accent-light: #84A98C;
+
+
+// Potential color palette: https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
+/*colors {
+    light-color: #CAD2C5;
+    light-accent-color: #84A98C;
+    main-color: #52796F;
+    dark-accent-color: #354F52;
+    dark-color: #2F3E46;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    color: $textColor;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: $textColor;
+}
+
+img {
+    width: 100%;
+}
+
+/***** NAVBAR *****/
+.navbar {
+    background-color: $bg-light;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: $bg-dark;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar img {
+    width: 200px;
+    height: auto;
+    padding-left: 30px;
+
+}
+
+.navbar a:hover {
+    border-bottom: 2px $bg-dark solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+/***** FLEX & GRID *****/
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*****HOME SECTION *****/
+
+.home-head img {
+    width: 200px;
+    justify-self: flex-end;
+    border-radius: 50%;
+    border: 1px #84A98C solid;
+}
+
+.home-head {
+    padding: 50px;
+    background-color: $bg-light;
+}
+
+.home-head .container {
+    padding: 20px;
+}
+
+.home-head h1, 
+.home-head p {
+    padding-left: 10px;
+    color: $bg-dark;
+}
+
+
+/***** FOOTER *****/
+
+.footer {
+    background-color: $bg-dark;
+}
+
+.footer h1 {
+    font-size: 27px;
+}
+.footer .social a {
+    margin: 0 10px;
+}
+
+/***** SOCIALS *****/
+.social a {
+    list-style: none;
+}
+
+.fab {
+    transition: 0.6s;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px #CAD2C5;
+    padding: 0.2em 0.3em;
+}
+
+.fab:hover {
+    transform: translate(0, -10px);
+}
+
+/*.social .fab {
+    transition: 0.6s;
+    border-radius: 50%; 
+}
+
+.fa-linkedin {
+    border-radius: 50%;
+}
+
+.social .fab:hover {
+    transform: translate(0, -10px);
+}*/
+
+.social a:nth-child(1) .fab:hover {
+    background-color: #333;
+}
+
+.social a:nth-child(2) .fab:hover {
+    background-color: #3b5999;
+}
+
+.social a:nth-child(3) .fab:hover {
+    background-color: #0077B5;
+}
+
+
+@media(max-width: 768px) {
+    .grid, 
+    .home-head .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase {
+        height: auto;
+    }
+
+    .home-head img {
+        margin-top: 50px;
+        justify-self: center;
+        align-self: center;
+        animation: slideInFromTop 1s ease-in;
+    }
+
+    .home-head .home-text {
+        text-align: center;
+    }
+
+    .home-head {
+        height: auto;
+    }
+
+    .cli .grid > *:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .features-head,
+    .features-sub-head,
+    .docs-head {
+        text-align: center;
+    }
+
+    .features-head img,
+    .features-sub-head img,
+    .docs-head img {
+        justify-self: center;
+    }
+
+    .features-main .grid >*:first-child,
+    .features-main .grid > *:nth-child(2) {
+        grid-column: 1;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+}
+
+
+
+/***** MOBILE MEDIA QUERIES *****/
+
+@media(max-width: 500px) {
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .showcase-form {
+        width: 300px;
+    }
+}
+

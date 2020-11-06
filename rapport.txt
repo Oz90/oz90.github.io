@@ -1,19 +1,71 @@
 Inlämningsuppgift godkänt-nivå:
 I ditt repo ska det finnas en rapport.txt 
-(jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) 
-där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår dessa begrepp.
+där du beskriver Scrum, grafisk profil och tillgänglighet 
+så att jag kan se att du förstår dessa begrepp.
 
 Välgodkänt-nivå:
-Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.
+Er rapport ska även innehålla en del där ni diskuterar 
+för- och nackdelar/svårigheter med de olika teknikerna.
 
 
 SCRUM 
+--------------
+Scrum är ett processramverk som funnits sedan tidigt 1990-tal och används för att hantera komplex produkt-/systemutveckling. 
+Det har med tiden blivit det ledande ramverket för mjukvaruutveckling och anledningen till det är bland annat för att man fokuserar på 
+affärsnytta och möjligheten att förändra projektet på ett strukturerat sätt. Anledningen till att man kan ändra projektet under arbetetsgång är
+för att det inte finns någon klassisk kravspec när man jobbar med scrum. Istället har man en backlog som man utgår ifrån, vilket enkelt förklarat 
+är en föränderlig lista med önskemål där man får prioritera olika delar under arbetets gång. 
+Alltså kan priolistan förändras under projektets gång och sådant man fokuserade på i början kan tas bort senare, alternativt kan man lägga till andra saker under projektet.
+Det som är grejen med scrum är dock att man inte kan lägga till och ta bort saker hur som helst, eller när som helt under projektets gång. 
+Det finns en viktig struktur för hur processen ska gå till och när under arbetets gång som man får ändra saker. Denna tydliga struktur ser till att det inte blir kaos under projektet 
+eftersom man endast får lägga till, ta bort eller ändra saker på ett genomtänkt och utarbetat sätt. 
+Strukturen/processen jag talar om som möjliggör detta är följande: 
+
+De tre viktigaste rollerna/delarna av ett SCRUM-team.
+1. Produktägare, oftast en kund som i vårat skolprojekt, som bestämmer vad produkten ska innehålla och vad som ska prioriteras.
+Vilka funktioner behövs och vilka är inte lika viktiga? Produktägaren bör jobba tillsammans med teamet för att ge dem så tydliga krav 
+som möjligt och för att förklara förväntningarna på slutprodukten. Det är här Produktägaren tillsammans med teamet tar fram en product backlog.
+Product backlogen specificerar vad produkten ska innehålla och vad som ska prioriteras av utvecklingsteamet. 
+
+2. Utvecklingsteamet är de som utvecklar själva produkten utifrån produktägarens önskemål och prioritering.
+Teamet bestämmer själva hur de ska organisera sig, vem gör vad och när? Alla är delaktiga och ansvariga för att leverera enligt kraven.
+
+3. Scrummastern är den trejde delen av scrumteamet och är den som har bäst koll på scrumprocessen och hur man arbetar agilt och enligt scrum på bästa sätt.
+Scrummastern ser till att ha dagliga möten för att stämma av, underlätta kommunikationen och stötta de som har stött på hinder i arbetet. Hen ska också se till att 
+utvecklingsteamet kan fokusera på sitt arbete och se till att det inte kommer massa orimliga krav eller påtryckningar på teamet från produktägare eller andra delar av organisationen.
+Det kan även vara klokt av scrummastern att inkludera teamet i kommunikationen med produktägaren för att alla parter ska ha förståelse för varandras förväntningar och förstå varandras 
+möjligheter att utföra arbetet på ett effektivt och bra sätt.
+
+
+Arbetsprocessen enligt SCRUM:
+Efter att man upprättat en product backlog tillsammans med produktägaren så ska man börja med ett gemensamt planeringsmöte där man går igenom vad man ska göra under sin sprint. 
+Under sprinten så arbetar man med ett visst antal prioriterade uppgifter (t.ex. en viss design, viss funktionalitet osv.). Under sprinten får man inte ta bort eller ändra något.
+Man förväntas göra det man kommit överens om och det viktigaste är att sprint backlogen besämt av teamet. Längden på en sprint kan variera men kan vara allt från 3-30 dagar beroende på projekt.
+När sprint planeringen är färdig ska man alltså ha en sprint backlog som man arbetar utifrån och som ska färdigställas på utsatt tid (när sprinten är över). 
+Varje dag under sprinten har man daily scrum möten där man har en kortare avstämning på max 15 minuter för att se vad man åstadkommit sedan igår, vad man ska åstadkomma under dagen och om man behöver stöd.
+Det är scrummastern som håller i daily scrum, bokar lokal, ser till att alla får komma till tals osv. 
+Efter att sprinten är genomförd har man en sprint review där man går igenom sprintens resultat, man visar upp för produktägaren vad man åstadkommit och har en dialog med hen om vad hens planer är för framtiden. 
+Här kan man också ha en dialog med produktägaren om man har förbättringsförslag på funktionalitet eller liknande på sidan så att hen kan ta ställning till förslagen
+Är det bra förslag kan det läggas till på produkt backlogen och man kan ha med det i någon av de framtida sprintarna. 
+Det är också viktigt med ständigt lärande när man jobbar med SCRUM, därför finns också något som kallas för sprint retrospective där man gemensamt tittar på vad man lärt sig från sprinten som gått och identifierar förbättringsmöjligheter i arbetsättet.
 
 
 
 Grafisk profil
+--------------
+En grafisk profil är de färger och former som ett företag kan använda sig av på sin hemsida, sina trycksaker (affischer, kaffekoppar, planscher osv.) för att kunder och andra ska känna igen och kunna identifiera företaget snabbt och enkelt.
+Det kan handla om allt från färger, former, logotyper, typsnitt och annat. 
+Man använder sig av grafiska profiler för att ge ett likriktat användande av de bilder och texter som man tänker sig att företagets kunder/användare/gäster ska se.
+När jag jobbade i Stockholms stad hade vi till en början väldigt många olika typsnitt, färger och bilder på våra informationsblad och planscher till allmänheten. Det blev lätt rörigt.
+För ett antal år sedan gjordes en stor omarbetning av den grafiska profilen och man valde ut 5 färger (lila, grön, blå, rosa och orange) som man sedemera använde i allt tryckmaterial. 
+Man använde även vissa specifika former (som fyrkanter) på de planscherna vilket gjorde att många snabbt kunde identifiera att det var information från Stockholms stad när de såg planscherna och kände igen den grafiska profilen.
+Det går givetvis inte över en natt att kunder känner igen en ny grafiskprofil, men med tiden så sätter det sig hos kunderna. Det går väldigt snabbt som kund att identifiera på profilen vilket företag det är som skickar informationen om man sett just den grafiska profilen tidigare.
+Då kan man som kund också snabbt besluta sig för om man vill läsa vidare och ta till sig informationen eller om man tror att det inte är något av intresse.
 
 
-
-tillgänglighet
-
+Tillgänglighet
+--------------
+Med tillgänglighet inom webbutveckling menar man främst att information och tjänster ska kunna användas och nå alla människor oavsett eventuella funktionsnedsättningar.
+Det kan handla om att tänka på hur man använder kontraster i text och bakgrundsfärg för att det ska gå att läsa för människor med synnedsättningar, eller om att inte använda rullande text för att 
+människor som har dyslexi ska kunna ta till sig informationen. Det finns massvis med saker som är viktiga att tänka på för att skapa en tillgänglig och bra användarupplevelse för 
+så många människor som möjligt. Det finns välutarbetade och ha förståelse för människor olikheter och olika förmågor för att skapa en så tillgänlig miljö som möjligt för användarna.

@@ -50,7 +50,7 @@ img {
 }
 
 .navbar img {
-  width: 200px;
+  width: 170px;
   height: auto;
   padding-left: 30px;
 }
@@ -245,7 +245,10 @@ img {
   }
   .navbar ul {
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(82, 121, 111, 0.15);
+  }
+  .navbar img {
+    padding-left: 0;
   }
   .showcase-form {
     width: 300px;

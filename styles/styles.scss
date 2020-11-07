@@ -233,11 +233,9 @@ img {
     text-transform: uppercase;
 }
 
-.ptext > p {
-    display: inline-block;
-}
 
 .ptext .border {
+    display: inline-block;
     background-color: #2F3E46;
     opacity: 0.7.5;
     color: #CAD2C5;
@@ -305,7 +303,7 @@ img {
 
 @media(max-width: 500px) {
     .navbar {
-        height: 110px;
+        height: 250px;
     }
 
     .navbar .flex {
@@ -324,5 +322,9 @@ img {
     .showcase-form {
         width: 300px;
     }
-}
 
+
+    .pimg1, .pimg2, .pimg3  {
+        background-attachment: scroll;
+    }
+}

@@ -15,7 +15,7 @@ Portfoliouppgiftens krav på Välgodkänt-nivå:
 12. Använda CSS Transitions eller Animations (DONE)
 13. Välskriven, kommenterad och indenterad CSS/HTML
 14. Minst 5 tillgänglighetskrav
-15. Diskutera för och nackdelar med olika teknikerna.
+15. Diskutera för och nackdelar med olika teknikerna. (DONE)
 16. Lämna in i tid
 
 

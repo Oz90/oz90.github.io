@@ -103,6 +103,12 @@ Fördelar med grafisk profil:
 2. En annan fördel är att det kan vara enklare för t.ex. utvecklare, designers eller andra att skapa något utifrån företagets krav om de har tydliga grafiska profiler med färg/form/typsnitt osv.
 
 Nackdelar/svårigheter med grafisk profil:
+En svårighet med en grafisk profil kan vara att särskilja sig tillräckligt mycket och se till att ha den unik för sitt företag. Detta är möjligtvis något man inte behöver tänka på om man är ett litet företag,
+men om man börjar bli ett större företag är det viktigt att kunderna inte blandar ihop ens egna produkter/informationsblad och liknande med andra företag eller konkurrenter. Man ska vara lätt att känna igen, men samtidigt 
+är det viktigt att man inte liknar någon annan. Den kombinationen kan vara tuff att uppnå ibland. 
+En svårighet med grafiska profiler som jag tyckte mig snappa upp under grupparbetet i skolan var att vissa utvecklare/scum masters verkade vilja ändra och anpassa kundernas (produktägarens) hemsida utifrån sina egna önskemål.
+De ansåg sig ha bättre idéer om hur den grafiska profilen skulle se ut och vilka färger som skulle passa bättre ihop. Detta är möjligtvis något som kan ske i det verkliga livet, och i många fall kan det säkerligen vara så att utvecklare och/eller designers 
+som arbetar åt en kund har bättre förslag och idéer om hur saker och ting kan se ut. Men det är viktigt att man utgår ifrån kundens grafiska profil och respekterar den, hur svårt det än må vara ibland. 
 
 
 Tillgänglighet
@@ -111,3 +117,18 @@ Med tillgänglighet inom webbutveckling menar man främst att information och tj
 Det kan handla om att tänka på hur man använder kontraster i text och bakgrundsfärg för att det ska gå att läsa för människor med synnedsättningar, eller om att inte använda rullande text för att 
 människor som har dyslexi ska kunna ta till sig informationen. Det finns massvis med saker som är viktiga att tänka på för att skapa en tillgänglig och bra användarupplevelse för 
 så många människor som möjligt. Det finns välutarbetade och ha förståelse för människor olikheter och olika förmågor för att skapa en så tillgänlig miljö som möjligt för användarna.
+
+Fördelar med tillgänglighet:
+Fördelarna med tillgänglighet har jag redan varit inne på väldigt mycket ovan och de är i sig väldigt självklara på många sätt, 
+så jag kommer inte repetera dem här eftersom jag redan gått igenom dem ganska väl ovan.
+
+Nackdelar och/eller svårigheter med tillgänglighet:
+En "nackdel" med detta är förmodligen att många hemsidor inte följer dessa till fullo. Min upplevelse är att många hemsidor följer det de anser vara "viktigast", vilket ibland kan vara godtyckligt. 
+Riktlinjerna i sig är väldigt många och digra, det finns mycket att tänka på och på sätt och vis är det förståeligt att alla hemsidor inte följer varenda WCAG riktlinje till punkt och pricka.
+Men det är förmodligen inte heller meningen att alla hemsidor ska följa varenda riktlinje, utan mer att man ska medvetande göra detta så att webbutvecklare och designers har med sig det när de bygger sidor.
+På det viset kan framtidens hemsidor bli än mer inkluderande och tillgängliga för olika människor med funktionsnedsättningar.
+En annan svårighet som jag kan tänka mig är att många webbutvecklare är egenlärda idag då det finns mycket info, guider och liknande på youtube för att lära sig HTML/CSS/JAVASCRIPT. 
+Det är lätt hänt att många som lär sig koda på egen hand förbiser eller missar "tillgänglighetstänket" eftersom det enligt mina erfarenheter inte framgår på sådana videor/guider så mycket. 
+Det vanligaste man hört på sådana internet videos är väl "alt" attirbutet som kommer i "img"-taggar där man ska beskriva hur en bild ser ut för de somhar synnedsättningar. 
+Men utöver det är det, enligt min erfarenhet, väldigt lite information och fokus på tillgänglighet. Därför är min upplevelse att det finns mer att önska från content creators när det gäller just denna biten för att säkerställa att 
+alla webbutvecklare och blivnade webbutvecklare faktiskt får ta del av denna väldigt viktiga kunskap.

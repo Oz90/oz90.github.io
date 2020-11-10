@@ -331,7 +331,7 @@ img {
   text-align: center;
 }
 
-.portfolio_link {
+.portfolio .portfolio_link {
   color: #2F3E46;
   text-align: center;
   display: inline-block;
@@ -339,7 +339,21 @@ img {
   height: 100%;
 }
 
+.portfolio .portfolio_link .portfolio_title {
+  padding: 20px 0;
+}
+
+.portfolio .portfolio_link .portfolio_text {
+  padding: 0 5px;
+}
+
 .portfolio .portfolio_project {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 300px;
+  height: 200px;
   margin: 18px 10px 40px;
   -webkit-transition: -webkit-transform 0.2s ease-in;
   transition: -webkit-transform 0.2s ease-in;
@@ -350,16 +364,6 @@ img {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-.portfolio_project {
-  color: blue;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  margin: 10px;
-  width: 300px;
-  height: 200px;
 }
 
 .portfolio .portfolio_project:hover {

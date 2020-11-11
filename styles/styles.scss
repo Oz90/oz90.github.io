@@ -86,13 +86,6 @@ img {
 }
 
 /*****HOME SECTION *****/
-/*.home-head img {
-    width: 200px;
-    justify-self: flex-end;
-    border-radius: 50%;
-    border: 1px #84A98C solid;
-}*/
-
 .home-head {
     padding: 50px;
     background-color: $bg-light;
@@ -127,31 +120,29 @@ img {
 }
 
 /***** SOCIALS IN FOOTER *****/
-.social a {
-    list-style: none;
-}
+.social {
+    a {
+        list-style: none;
+    }
+    a:nth-child(1) .fab:hover {
+        background-color: #333;
+    }
+    a:nth-child(2) .fab:hover {
+        background-color: #3b5999;
+    }
+    a:nth-child(3) .fab:hover {
+        background-color: #0077B5;
+    }    
 
-.fab {
-    transition: 0.6s;
-    border-radius: 50px;
-    box-shadow: 0px 0px 2px #CAD2C5;
-    padding: 0.2em 0.3em;
-}
-
-.fab:hover {
-    transform: translate(0, -10px);
-}
-
-.social a:nth-child(1) .fab:hover {
-    background-color: #333;
-}
-
-.social a:nth-child(2) .fab:hover {
-    background-color: #3b5999;
-}
-
-.social a:nth-child(3) .fab:hover {
-    background-color: #0077B5;
+    .fab {
+        transition: 0.6s;
+        border-radius: 50px;
+        box-shadow: 0px 0px 2px #CAD2C5;
+        padding: 0.2em 0.3em;
+    }
+    .fab:hover {
+        transform: translate(0, -10px);
+    }
 }
 
 /***** ABOUT PAGE *****/

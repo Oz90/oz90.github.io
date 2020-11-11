@@ -1,13 +1,11 @@
+// Color palette: https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
 $darkColor: #2F3E46;
 $lightColor: #CAD2C5;
-
+$lightAccent: #84A98C;
 
 // These colors are not used
 $darkAccent: #354F52;
 $mainColor: #52796f;
-$lightAccent: #84A98C;
-
-// Potential color palette: https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
 
 * {
     box-sizing: border-box;
@@ -94,7 +92,7 @@ img {
         width: 200px;
         justify-self: flex-end;
         border-radius: 50%;
-        border: 1px #84A98C solid;
+        border: 1px $lightAccent solid;
     }
 
     .container {

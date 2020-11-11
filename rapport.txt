@@ -3,7 +3,7 @@ Portfoliouppgiftens krav på Godkänt-nivå:
 2. Kontaktuppgifter (NOOOOOT DOOOOONEEEE)
 3. Portfolio samt Länk till Github, LinkedIn osv. (DONE)
 4. Använda SCSS (mixins och nästlade selektorer) (DONE)
-5. Implementera minst 2 tillgänglighetskrav (NOOOOOT DOOOOONEEEE)
+5. Implementera minst 2 tillgänglighetskrav (DONE)
 6. Vara responsiv och använda media queries (NOOOOOT DOOOOONEEEE)
 7. Använda CSS Grids eller Flexbox (DONE)
 8. En sida som beskriver utbildningen (DONE)
@@ -20,6 +20,7 @@ Portfoliouppgiftens krav på Välgodkänt-nivå:
 
 Tillgänglighetskrav som uppfyllts:
 1.1.1 -> Beskriv med text allt innehåll som inte är det (t.ex. alt-attribut i bilder)
+1.3.1 -> Ange i kod vad sidans olika delar har för roll (Strukturerad HTML-kod, rätt HTML-element för rätt syfte)
 2.4.3 -> Logisk tab-ordning
 
 

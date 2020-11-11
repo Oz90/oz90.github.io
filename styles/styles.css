@@ -242,9 +242,10 @@ img {
 }
 
 .portfolio .portfolio_project {
+  background-color: #2F3E46;
   border-radius: 10px;
-  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 10px #2F3E46;
+          box-shadow: 0 3px 10px #2F3E46;
   margin: 10px;
   width: 300px;
   height: 200px;
@@ -266,7 +267,7 @@ img {
 }
 
 .portfolio .portfolio_link {
-  color: #2F3E46;
+  color: #CAD2C5;
   text-align: center;
   display: inline-block;
   width: 100%;

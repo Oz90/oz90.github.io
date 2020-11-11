@@ -229,6 +229,12 @@ img {
         text-align: center;
     }
 
+    h4 {
+        text-align: center;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
     .portfolio_link {
         color: $bg-dark;
         text-align: center;
@@ -255,6 +261,7 @@ img {
         justify-self: center;
         align-self: center;
     }
+
     .portfolio_project:hover {
         transform: translateY(-15px);
     }

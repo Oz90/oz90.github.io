@@ -237,6 +237,12 @@ img {
   text-align: center;
 }
 
+.portfolio h4 {
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
 .portfolio .portfolio_link {
   color: #2F3E46;
   text-align: center;

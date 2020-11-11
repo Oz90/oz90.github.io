@@ -3,6 +3,12 @@ $darkColor: #2F3E46;
 $lightColor: #CAD2C5;
 $lightAccent: #84A98C;
 
+@mixin alignjustifyheight {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 // These colors are not used
 $darkAccent: #354F52;
 $mainColor: #52796f;
@@ -65,18 +71,14 @@ img {
 /***** FLEX & GRID *****/
 .flex {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    @include alignjustifyheight();
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    @include alignjustifyheight();
 }
 
 .grid-3{

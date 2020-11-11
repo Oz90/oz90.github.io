@@ -18,6 +18,10 @@ Portfoliouppgiftens krav på Välgodkänt-nivå:
 15. Diskutera för och nackdelar med olika teknikerna. (DONE)
 16. Lämna in i tid
 
+Tillgänglighetskrav som uppfyllts:
+1.1.1 -> Beskriv med text allt innehåll som inte är det (t.ex. alt-attribut i bilder)
+2.4.3 -> Logisk tab-ordning
+
 
 Inlämningsuppgift/Rapport Godkänt-nivå:
 I ditt repo ska det finnas en rapport.txt 

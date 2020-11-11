@@ -1,20 +1,20 @@
 Portfoliouppgiftens krav på Godkänt-nivå:
 1. Landingpage - kortfattad beskrivning (DONE)
-2. Kontaktuppgifter
-3. Portfolio samt Länk till Github, LinkedIn osv.
-4. Använda SCSS (mixins och nästlade selektorer) 
-5. Implementera minst 2 tillgänglighetskrav
-6. Vara responsiv och använda media queries 
+2. Kontaktuppgifter (NOOOOOT DOOOOONEEEE)
+3. Portfolio samt Länk till Github, LinkedIn osv. (DONE)
+4. Använda SCSS (mixins och nästlade selektorer) (DONE)
+5. Implementera minst 2 tillgänglighetskrav (NOOOOOT DOOOOONEEEE)
+6. Vara responsiv och använda media queries (NOOOOOT DOOOOONEEEE)
 7. Använda CSS Grids eller Flexbox (DONE)
-8. En sida som beskriver utbildningen
+8. En sida som beskriver utbildningen (DONE)
 9. Innehålla rapport.txt (DONE)
 
 Portfoliouppgiftens krav på Välgodkänt-nivå:
 10. Allt för G
 11. Använda både CSS Grids och Flexbox (DONE)
 12. Använda CSS Transitions eller Animations (DONE)
-13. Välskriven, kommenterad och indenterad CSS/HTML
-14. Minst 5 tillgänglighetskrav
+13. Välskriven, kommenterad och indenterad CSS/HTML (DONE)
+14. Minst 5 tillgänglighetskrav (NOOOOOT DOOOOONEEEE)
 15. Diskutera för och nackdelar med olika teknikerna. (DONE)
 16. Lämna in i tid
 

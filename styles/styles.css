@@ -184,7 +184,7 @@ img {
   margin: 0;
 }
 
-.pimg1, .pimg2, .pimg3 {
+.about-bg-img-1, .about-bg-img-2, .about-bg-img-3 {
   position: relative;
   opacity: 0.7;
   background-position: center;
@@ -193,17 +193,17 @@ img {
   background-attachment: fixed;
 }
 
-.pimg1 {
+.about-bg-img-1 {
   background-image: url("../images/school.jpg");
   min-height: 100%;
 }
 
-.pimg2 {
+.about-bg-img-2 {
   background-image: url("../images/webdev.jpg");
   min-height: 400px;
 }
 
-.pimg3 {
+.about-bg-img-3 {
   background-image: url("../images/office.jpg");
   min-height: 400px;
 }
@@ -316,7 +316,7 @@ img {
   .showcase-form {
     width: 300px;
   }
-  .pimg1, .pimg2, .pimg3 {
+  .about-bg-img-1, .about-bg-img-2, .about-bg-img-3 {
     background-attachment: scroll;
   }
 }

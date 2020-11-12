@@ -21,8 +21,9 @@ Portfoliouppgiftens krav på Välgodkänt-nivå:
 Tillgänglighetskrav som uppfyllts:
 1.1.1 -> Beskriv med text allt innehåll som inte är det (t.ex. alt-attribut i bilder)
 1.3.1 -> Ange i kod vad sidans olika delar har för roll (Strukturerad HTML-kod, rätt HTML-element för rätt syfte)
+1.4.10 -> Skapa en flexibel layout som fungerar vid förstoring eller liten skärm (En layout som funkar på 320 pixlar utan horisontell skrollning, responsiv, mobilanpassad)
 2.4.3 -> Logisk tab-ordning
-
+3.1.1 -> Ange sidans språk i koden (För att skärmläsare ska kunna läsa och uttala sidans innehåll korrekt ska ett språk vara angivet i root elementet med hjälp av ett lang-attribut. Jag har valt engelska där då texten är på engelska)
 
 Inlämningsuppgift/Rapport Godkänt-nivå:
 I ditt repo ska det finnas en rapport.txt 

@@ -128,7 +128,7 @@ img {
     }
 
     h3 {
-        text-align: center;
+        padding-left: 100px;
         padding-bottom: 10px;
     }
 
@@ -322,6 +322,10 @@ img {
     .footer {
         text-align: center;
     }
+
+    .social h3 {
+        padding-left: 0px;
+    }
 }
 
 /***** MOBILE MEDIA QUERIES *****/
@@ -350,6 +354,10 @@ img {
     .about-bg-img-1, .about-bg-img-2, .about-bg-img-3  {
         background-attachment: scroll;
     }
+
+    .social h3 {
+            padding-left: 0px;
+        }
 }
 
 

@@ -145,6 +145,11 @@ img {
         justify-self: flex-end;
         border-radius: 50%;
         border: 1px $lightAccent solid;
+        animation: slideInFromLeft 1s ease-in;
+    }
+
+    .home-text {
+        animation: slideInFromRight 1s ease-in;
     }
 
     .container {
@@ -170,7 +175,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .about-bg-img-1 {
@@ -270,6 +274,27 @@ img {
     }
 }
 
+/***** SIMPLE ANIMATIONS *****/
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(150%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 /***** TABLET MEDIA QUERIES *****/
 @media(max-width: 768px) {
     .grid, 
@@ -286,7 +311,6 @@ img {
         margin-top: 50px;
         justify-self: center;
         align-self: center;
-        animation: slideInFromTop 1s ease-in;
     }
 
     .home-head .home-text {

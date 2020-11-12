@@ -158,6 +158,13 @@ img {
   justify-self: flex-end;
   border-radius: 50%;
   border: 1px #84A98C solid;
+  -webkit-animation: slideInFromLeft 1s ease-in;
+          animation: slideInFromLeft 1s ease-in;
+}
+
+.home-head .home-text {
+  -webkit-animation: slideInFromRight 1s ease-in;
+          animation: slideInFromRight 1s ease-in;
 }
 
 .home-head .container {
@@ -289,6 +296,50 @@ img {
   padding: 0 5px;
 }
 
+/***** SIMPLE ANIMATIONS *****/
+@-webkit-keyframes slideInFromLeft {
+  0% {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromRight {
+  0% {
+    -webkit-transform: translateX(150%);
+            transform: translateX(150%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    -webkit-transform: translateX(150%);
+            transform: translateX(150%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
 /***** TABLET MEDIA QUERIES *****/
 @media (max-width: 768px) {
   .grid,
@@ -308,8 +359,6 @@ img {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    -webkit-animation: slideInFromTop 1s ease-in;
-            animation: slideInFromTop 1s ease-in;
   }
   .home-head .home-text {
     text-align: center;

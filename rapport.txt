@@ -1,4 +1,4 @@
-Portfoliouppgiftens krav på Godkänt-nivå:
+---Portfoliouppgiftens Godkänt-krav:
 1. Landingpage - kortfattad beskrivning (DONE)
 2. Kontaktuppgifter (DONE)
 3. Portfolio samt Länk till Github, LinkedIn osv. (DONE)
@@ -8,8 +8,7 @@ Portfoliouppgiftens krav på Godkänt-nivå:
 7. Använda CSS Grids eller Flexbox (DONE)
 8. En sida som beskriver utbildningen (DONE)
 9. Innehålla rapport.txt (DONE)
-
-Portfoliouppgiftens krav på Välgodkänt-nivå:
+---Portfoliouppgiftens Välgodkänt-krav:
 10. Allt för G (DONE)
 11. Använda både CSS Grids och Flexbox (DONE)
 12. Använda CSS Transitions eller Animations (DONE)

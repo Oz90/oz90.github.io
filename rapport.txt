@@ -1,22 +1,22 @@
 Portfoliouppgiftens krav på Godkänt-nivå:
 1. Landingpage - kortfattad beskrivning (DONE)
-2. Kontaktuppgifter (NOOOOOT DOOOOONEEEE)
+2. Kontaktuppgifter (DONE)
 3. Portfolio samt Länk till Github, LinkedIn osv. (DONE)
 4. Använda SCSS (mixins och nästlade selektorer) (DONE)
 5. Implementera minst 2 tillgänglighetskrav (DONE)
-6. Vara responsiv och använda media queries (NOOOOOT DOOOOONEEEE)
+6. Vara responsiv och använda media queries (DONE)
 7. Använda CSS Grids eller Flexbox (DONE)
 8. En sida som beskriver utbildningen (DONE)
 9. Innehålla rapport.txt (DONE)
 
 Portfoliouppgiftens krav på Välgodkänt-nivå:
-10. Allt för G
+10. Allt för G (DONE)
 11. Använda både CSS Grids och Flexbox (DONE)
 12. Använda CSS Transitions eller Animations (DONE)
 13. Välskriven, kommenterad och indenterad CSS/HTML (DONE)
-14. Minst 5 tillgänglighetskrav (NOOOOOT DOOOOONEEEE)
+14. Minst 5 tillgänglighetskrav (DONE)
 15. Diskutera för och nackdelar med olika teknikerna. (DONE)
-16. Lämna in i tid
+16. Lämna in i tid (DONE)
 
 Tillgänglighetskrav som uppfyllts:
 1.1.1 -> Beskriv med text allt innehåll som inte är det (t.ex. alt-attribut i bilder)
@@ -25,15 +25,8 @@ Tillgänglighetskrav som uppfyllts:
 2.4.3 -> Logisk tab-ordning
 3.1.1 -> Ange sidans språk i koden (För att skärmläsare ska kunna läsa och uttala sidans innehåll korrekt ska ett språk vara angivet i root elementet med hjälp av ett lang-attribut. Jag har valt engelska där då texten är på engelska)
 
-Inlämningsuppgift/Rapport Godkänt-nivå:
-I ditt repo ska det finnas en rapport.txt 
-där du beskriver Scrum, grafisk profil och tillgänglighet 
-så att jag kan se att du förstår dessa begrepp.
 
-Inlämningsuppgift/Rapport Välgodkänt-nivå:
-Er rapport ska även innehålla en del där ni diskuterar 
-för- och nackdelar/svårigheter med de olika teknikerna.
-
+INLÄMNINGSUPPGIFT/RAPPORT:
 
 SCRUM 
 --------------

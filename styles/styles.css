@@ -58,62 +58,6 @@ img {
   padding-left: 30px;
 }
 
-/***** FLEX & GRID *****/
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
-.grid-3 {
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-}
-
-/*****HOME SECTION *****/
-.home-head {
-  padding: 50px;
-  background-color: #CAD2C5;
-}
-
-.home-head img {
-  width: 200px;
-  justify-self: flex-end;
-  border-radius: 50%;
-  border: 1px #84A98C solid;
-}
-
-.home-head .container {
-  padding: 20px;
-}
-
-.home-head h1, .home-head p {
-  padding-left: 10px;
-  color: #2F3E46;
-}
-
 /***** FOOTER *****/
 .footer {
   background-color: #2F3E46;
@@ -127,7 +71,7 @@ img {
   padding: 2px;
 }
 
-/***** SOCIALS IN FOOTER *****/
+/***** SOCIAL ICONS IN FOOTER *****/
 .social a {
   list-style: none;
   margin: 0 10px;
@@ -166,6 +110,63 @@ img {
 .social .fab:hover, .social .fas:hover {
   -webkit-transform: translate(0, -10px);
           transform: translate(0, -10px);
+}
+
+/***** FLEX & GRID *****/
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+/*****HOME SECTION *****/
+.home-head {
+  padding: 50px;
+  background-color: #CAD2C5;
+  height: 600px;
+}
+
+.home-head img {
+  width: 200px;
+  justify-self: flex-end;
+  border-radius: 50%;
+  border: 1px #84A98C solid;
+}
+
+.home-head .container {
+  padding: 20px;
+}
+
+.home-head h1, .home-head p {
+  padding-left: 10px;
+  color: #2F3E46;
 }
 
 /***** ABOUT PAGE *****/
